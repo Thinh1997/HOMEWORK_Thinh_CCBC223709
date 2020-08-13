@@ -2,6 +2,6 @@
 #include "TichPhan.h"
 
 int main() {
-	tichphan(0, 5);
+	tichphan(-6, -2);
 	return 0;
 }
