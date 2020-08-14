@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "sapxep.h"
 
 
@@ -18,5 +17,7 @@ void main() {
 	for (int i = 0; i < size; i++) {
 		printf("%d\r\n", arr[i]);
 	}
+
+	printf("%x_____%x\r\n", arr + 1, arr + 2);
 }
 
