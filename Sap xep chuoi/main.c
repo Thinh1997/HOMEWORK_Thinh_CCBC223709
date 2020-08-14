@@ -1,23 +1,12 @@
+#include <stdio.h>
 #include "sapxep.h"
 
+int main()
+{
+    
+    int arr[] = { 0, 23, 14, 12, 9 };
+    int n = sizeof(arr) / sizeof(int);
+    sapxep(n, arr);
 
-void main() {
-	char arr[4] = { 1,4,2,3 };
-
-	int size = 0;
-	size = sizeof(arr) / sizeof(char);
-
-	printf("Truoc khi sap xep:\r\n");
-	for (int i = 0; i < size; i++) {
-		printf("%d\r\n", arr[i]);
-	}
-
-	printf("Sau khi sap xep:\r\n");
-	sapxep(arr, size);
-	for (int i = 0; i < size; i++) {
-		printf("%d\r\n", arr[i]);
-	}
-
-	printf("%x_____%x\r\n", arr + 1, arr + 2);
+    return 0;
 }
-

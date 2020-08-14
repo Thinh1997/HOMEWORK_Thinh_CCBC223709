@@ -1,3 +1,4 @@
 #include <stdio.h>
+#include "hoanvi.h"
 
-void sapxep(int* arr, int size);
+void sapxep(int size, int * ptr);
