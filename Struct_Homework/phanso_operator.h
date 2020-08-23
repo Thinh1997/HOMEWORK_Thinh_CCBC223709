@@ -20,5 +20,5 @@ Phanso_t trups(Phanso_t A, Phanso_t B);
 Phanso_t congps(Phanso_t A, Phanso_t B);
 Phanso_t nhanps(Phanso_t A, Phanso_t B);
 Phanso_t chiaps(Phanso_t A, Phanso_t B);
-void rutgon(Phanso_t * A); 
-void info_hs(HSSV* A)
+void rutgon(Phanso_t * A);
+HSSV info_hs(HSSV* A);

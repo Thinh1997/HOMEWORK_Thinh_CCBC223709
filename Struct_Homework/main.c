@@ -28,6 +28,7 @@ void main() {
 	strcpy_s(hs1.phone, 11, "0765800330");
 	hs1.sex = 1;
 	hs1.tuoi = 20;
+	info_hs(&hs1);
 }
 
  

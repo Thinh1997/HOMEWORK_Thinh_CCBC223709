@@ -39,3 +39,16 @@ Phanso_t trups(Phanso_t A, Phanso_t B) {
 	kq.mau = B.mau * A.mau;
 	return kq;
 }
+
+HSSV info_hs(HSSV* A) {
+	printf("\r\nHo ten HSSV: ");
+	printf(A->hoten);
+	printf("\r\nDia chi: ");
+	printf(A->diachi);
+	printf("\r\nMa so SV: ");
+	printf(A->mssv);
+	printf("\r\nSo DT: ");
+	printf(A->phone);
+	(A->sex == 1) ? printf("\r\nNam") : printf("\r\nNu");
+	printf("\r\nTuoi: %d", A->tuoi);
+}
