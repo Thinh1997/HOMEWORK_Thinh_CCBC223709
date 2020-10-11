@@ -1,10 +1,8 @@
 #include "bai3.h"
+#include <Windows.h>
 
 int main() {
-	PT_bac2 a;
-	a.A = 10;
-	a.B = 10;
-	a.C = -45;
-	a.giaipt();
+	PT_bac2 a(10, 20, -45);
+
 	return 0;
 }
